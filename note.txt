@@ -1,0 +1,19 @@
+一、初始化
+  1.git init  --将当前目录初始化为空白仓库
+  2.git config --global user.name '王锐'  --设置git用户名
+  3.git config --global user.email '14@qq.com'  --设置git邮箱
+  4.ls -ah  --可以看到隐藏的.git文件
+
+二、添加提交与推送
+  1.git add readme.txt  --把文件添加到暂存区
+  2.git commit -m '提交的内容'  --把文件提交到本地仓库
+  3.git push  --推送到远程仓库
+  4.git status  --查看有变动的文件
+  5.git diff  --查看变动详情
+
+三、版本穿梭
+  1.git reset --hard HEAD^  --move to 上一次提交的版本
+  2.git reset --hard <commit id>  --move to 某一次提交的版本
+  3.git log   --可以查看提交历史记录
+  4.git log --pretty=oneline  --查看提交历史记录的简洁版
+  5.git reflog  --会显示每次命令的commit id,可以在回退版本后想回来的时候查看提交id
