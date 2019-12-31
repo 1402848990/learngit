@@ -37,3 +37,6 @@
   4.git branch -d dev   --删除dev分支
   5.git switch dev  --和git checkout dev同样是切换分支，但是更科学
 
+八、删除分支
+  1.git push origin -d code01  --删除远程分支
+  2.git branch -d code01  --删除本地分支
