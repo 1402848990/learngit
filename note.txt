@@ -30,3 +30,8 @@
   2.git remote add origin git@github.com:1402848990/learn --与远程仓库建立连接
   3.git push -u origin master --第一次推送master分支的所有内容
 
+七、创建新的分支
+  1.git branch dev  --创建dev分支
+  2.git checkout -b dev  --创建并切换到dev分支
+  3.git branch  --查看所有分支
+
