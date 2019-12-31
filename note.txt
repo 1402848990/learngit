@@ -34,4 +34,6 @@
   1.git branch dev  --创建dev分支
   2.git checkout -b dev  --创建并切换到dev分支
   3.git branch  --查看所有分支
+  4.git branch -d dev   --删除dev分支
+  5.git switch dev  --和git checkout dev同样是切换分支，但是更科学
 
