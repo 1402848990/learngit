@@ -17,3 +17,10 @@
   3.git log   --可以查看提交历史记录
   4.git log --pretty=oneline  --查看提交历史记录的简洁版
   5.git reflog  --会显示每次命令的commit id,可以在回退版本后想回来的时候查看提交id
+
+四、撤销修改
+  1.git checkout -- readme.txt  --撤销对readme文件的修改，标准是根据上一次add或者commit
+
+五、删除文件
+  1.rm test.txt   --本地删除文件
+  2.git rm test.txt   --在本地git仓库中删除test文件，删除后要commit提交
