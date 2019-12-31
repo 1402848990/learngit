@@ -6,7 +6,7 @@
 
 二、添加提交与推送
   1.git add readme.txt  --把文件添加到暂存区
-  2.git commit -m '提交的内容'  --把文件提交到本地仓库
+  2.git commit -m '提交的内容'  --把文件提交到本地仓库当前分支
   3.git push  --推送到远程仓库
   4.git status  --查看有变动的文件
   5.git diff  --查看变动详情
